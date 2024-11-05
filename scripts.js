@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     buttons.forEach(button => {
         button.addEventListener('click', function() {
             const product = this.getAttribute('data-product');
-            const message = `👋 Hola, estoy interesado en comprar el ${product} de Anime Store. ¿Podría darme más detalles?`;
+            const message = `👋 Hola, estoy interesado en comprar la figura de ${product} de Anime Store. ¿Podría darme más detalles?`;
             const advertisement = '✨ ¡No te pierdas nuestras ofertas exclusivas! ✨';
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message + ' ' + advertisement)}`;
             
