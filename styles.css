@@ -1,62 +1,84 @@
+/* Estilos generales para el cuerpo de la página */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif; /* Fuente de texto */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #f4f4f4; /* Color de fondo */
 }
 
+/* Estilos para el encabezado de la página */
 .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 2em;
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 20px 0; /* Relleno superior e inferior */
+    text-align: center; /* Centra el texto */
+    font-size: 2em; /* Tamaño de fuente */
 }
 
+/* Estilos para la sección de productos */
 .products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    display: flex; /* Utiliza flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    padding: 20px; /* Relleno alrededor de la sección */
 }
 
+/* Estilos para cada tarjeta de producto */
 .product {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 300px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s;
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    border: 1px solid #ddd; /* Borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px; /* Margen alrededor de la tarjeta */
+    padding: 20px; /* Relleno dentro de la tarjeta */
+    text-align: center; /* Centra el texto dentro de la tarjeta */
+    width: 300px; /* Ancho fijo de la tarjeta */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto */
+    display: flex; /* Utiliza flexbox para el diseño interno */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    transition: transform 0.2s; /* Transición suave para el efecto hover */
 }
 
+/* Efecto hover para las tarjetas de producto */
 .product:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta al pasar el ratón */
 }
 
+/* Estilos para las imágenes de los productos */
 .product img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    max-width: 100%; /* Ancho máximo del 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
+/* Estilos para los títulos de los productos */
+.product h2 {
+    margin: 10px 0; /* Margen superior e inferior */
+    font-size: 1.5em; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para los precios de los productos */
+.product p {
+    font-size: 1.2em; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilos para los botones de compra */
 .buy-button {
-    background-color: #ff4500;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 10px;
-    text-decoration: none;
-    transition: background-color 0.2s;
+    background-color: #ff4500; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #fff; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin-top: 10px; /* Margen superior */
+    padding: 10px; /* Relleno dentro del botón */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.2s; /* Transición suave para el efecto hover */
 }
 
+/* Efecto hover para los botones de compra */
 .buy-button:hover {
-    background-color: #ff6347;
+    background-color: #ff6347; /* Color de fondo al pasar el ratón */
 }
