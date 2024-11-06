@@ -3,16 +3,26 @@ body {
     font-family: 'Arial', sans-serif; /* Fuente de texto */
     margin: 0; /* Elimina el margen predeterminado */
     padding: 0; /* Elimina el relleno predeterminado */
-    background-color: #f4f4f4; /* Color de fondo */
+    background-color: #ffe4e1; /* Color de fondo llamativo */
 }
 
 /* Estilos para el encabezado de la página */
 .header {
-    background-color: #333; /* Color de fondo del encabezado */
+    background-color: #ff4500; /* Color de fondo llamativo para el encabezado */
     color: #fff; /* Color del texto del encabezado */
     padding: 20px 0; /* Relleno superior e inferior */
     text-align: center; /* Centra el texto */
     font-size: 2em; /* Tamaño de fuente */
+}
+
+/* Estilos para el banner de oferta */
+.offer-banner {
+    background-color: #ffcc00; /* Color de fondo del banner */
+    color: #333; /* Color del texto del banner */
+    padding: 10px 0; /* Relleno superior e inferior */
+    text-align: center; /* Centra el texto */
+    font-size: 1.2em; /* Tamaño de fuente */
+    margin: 20px 0; /* Margen superior e inferior */
 }
 
 /* Estilos para la sección de productos */
@@ -25,7 +35,6 @@ body {
 
 /* Estilos para cada tarjeta de producto */
 .product {
-    background-color: #fff; /* Color de fondo de la tarjeta */
     border: 1px solid #ddd; /* Borde de la tarjeta */
     border-radius: 10px; /* Bordes redondeados */
     margin: 10px; /* Margen alrededor de la tarjeta */
@@ -38,6 +47,18 @@ body {
     justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
     transition: transform 0.2s; /* Transición suave para el efecto hover */
 }
+
+/* Colores de fondo diferentes para cada producto */
+.product-1 { background-color: #ffebcd; }
+.product-2 { background-color: #e6e6fa; }
+.product-3 { background-color: #f0fff0; }
+.product-4 { background-color: #f5f5dc; }
+.product-5 { background-color: #ffe4e1; }
+.product-6 { background-color: #fafad2; }
+.product-7 { background-color: #e0ffff; }
+.product-8 { background-color: #f0e68c; }
+.product-9 { background-color: #dda0dd; }
+.product-10 { background-color: #98fb98; }
 
 /* Efecto hover para las tarjetas de producto */
 .product:hover {
